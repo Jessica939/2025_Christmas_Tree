@@ -8,10 +8,16 @@ export const UI: React.FC = () => {
   return (
     <div className="absolute inset-0 pointer-events-none z-10 flex flex-col justify-between p-8">
       {/* Header */}
-      <div>
-        <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-white to-purple-300 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)] tracking-wider">
-          MERRY CHRISTMAS
+      <div className="mt-16">
+        <h1 
+          className="text-5xl md:text-7xl font-bold text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.8)] tracking-wider"
+          style={{ fontFamily: "'Great Vibes', cursive" }}
+        >
+          Merry Christmas
         </h1>
+        <p className="text-white text-sm ml-2 mt-1 tracking-widest uppercase font-light drop-shadow-[0_0_5px_rgba(255,255,255,0.5)]">
+          made by jessica
+        </p>
       </div>
 
       {/* Instructions */}

@@ -224,8 +224,8 @@ const ParticleSystem: React.FC<ParticleSystemProps> = ({ count, color, shape, sc
 
 export const MagicTree: React.FC = () => {
   return (
-    // Moved up from -2 to -1.0. Scaled down to 0.9.
-    <group position={[0, -1.0, 0]} scale={[0.9, 0.9, 0.9]}>
+    // Scaled down to 0.6. Positioned at -1.5.
+    <group position={[0, -1.5, 0]} scale={[0.6, 0.6, 0.6]}>
         {/* Leaves - Primary - #8170fc - Rotate CCW */}
         <ParticleSystem 
             count={COUNTS.leavesPrimary} 
