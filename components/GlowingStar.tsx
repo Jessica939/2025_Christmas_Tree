@@ -43,8 +43,8 @@ export const GlowingStar: React.FC = () => {
     if (!ref.current) return;
 
     // Bobbing motion 
-    // Adjusted Height 3.6 for 0.6 scale tree
-    ref.current.position.y = 3.6 + Math.sin(state.clock.elapsedTime) * 0.1;
+    // Adjusted Height 4.6 (moved up from 3.6 to match tree shift)
+    ref.current.position.y = 4.6 + Math.sin(state.clock.elapsedTime) * 0.1;
     ref.current.rotation.y += delta * 0.5;
 
     // Hide/Explode Logic
@@ -54,7 +54,7 @@ export const GlowingStar: React.FC = () => {
   });
 
   return (
-    <group ref={ref} position={[0, 3.6, 0]}>
+    <group ref={ref} position={[0, 4.6, 0]}>
       {/* 3D Star Shape */}
       <mesh rotation={[0, 0, 0]}>
         <extrudeGeometry args={[starShape, extrudeSettings]} />

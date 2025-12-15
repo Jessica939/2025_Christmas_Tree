@@ -8,7 +8,7 @@ export const UI: React.FC = () => {
   return (
     <div className="absolute inset-0 pointer-events-none z-10 flex flex-col justify-between p-8">
       {/* Header */}
-      <div className="mt-16">
+      <div className="mt-8">
         <h1 
           className="text-5xl md:text-7xl font-bold text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.8)] tracking-wider"
           style={{ fontFamily: "'Great Vibes', cursive" }}
