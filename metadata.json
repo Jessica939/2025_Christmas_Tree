@@ -1,0 +1,7 @@
+{
+  "name": "Cyber-Christmas Dream",
+  "description": "A high-performance 3D interactive Christmas tree with AI hand gesture control, featuring 7000+ instanced particles and post-processing effects.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
